@@ -9,4 +9,4 @@ RUN docker-php-ext-install \
 	mysqli\
 	pdo_mysql
 
-COPY *.ini /usr/local/etc/php/conf.d
+#COPY *.ini /usr/local/etc/php/conf.d
