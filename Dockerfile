@@ -9,4 +9,7 @@ RUN docker-php-ext-install \
 	mysqli\
 	pdo_mysql
 
+copy ports.conf /etc/apache2
 #COPY *.ini /usr/local/etc/php/conf.d
+
+EXPOSE 8080
